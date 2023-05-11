@@ -1,0 +1,30 @@
+[
+  {
+    "id": 0,
+    "img": "../../assets/images/event.jpg",
+     "title": "룸 온리 패키지",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,...",
+    "period": "진행기간 2022.02.01(화) ~ 2022.02.20(일)",
+    "price": "150,000원 ~",
+    "name": "Hello"
+      
+    },  
+  {
+    "id" : 1,
+    "img": "../assets/images/event2.jpg",
+    "title": "룸 온리 패키지",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,...",
+    "period": "진행기간 2022.02.01(화) ~ 2022.02.20(일)",
+    "price": "200,000원 ~",
+    "name": "제주"
+  },
+  {
+    "id": 2,
+    "img": "../assets/images/event3.jpg",
+    "title": "룸 온리 패키지",
+    "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet,...",
+    "period": "진행기간 2022.02.01(화) ~ 2022.02.20(일)",
+    "price": "250,000원 ~",
+    "name": "제주"
+  }
+]

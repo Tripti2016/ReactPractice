@@ -1,0 +1,221 @@
+.tab-style {
+    position: relative;
+
+    .tabTitle {
+        position: absolute;
+        top: -70px;
+        right: 0;
+
+        .tabs-header {
+            display: flex;
+
+            li {
+                list-style: none;
+                padding: 0 18px;
+                border: 0;
+                font-size: 22px;
+                width: auto;
+                border-right: 1px solid #CFCFCF;
+                line-height: 1;
+                color: #A4A4A4;
+                font-weight: 600;
+                text-transform: uppercase;
+                cursor: pointer;
+            }
+
+            .activeTab {
+                color: #2B3D66;
+            }
+        }
+
+
+    }
+
+    .hidden {
+        display: none;
+    }
+}
+
+.tab-style2 {
+    position: relative;
+
+    .tabTitle {
+        position: absolute;
+        top: calc(100% - 410px);
+        right: auto;
+        z-index: 25;
+        left: 0;
+        margin: auto;
+
+        .tabs-header {
+            display: flex;
+
+
+            li {
+                padding: 0 18px;
+                border: 0;
+                font-size: 32px;
+                width: auto;
+                border-right: 1px solid #CFCFCF;
+                line-height: 1;
+                color: #A4A4A4;
+                list-style: none;
+                font-weight: 600;
+                cursor: pointer;
+            }
+
+            .activeTab {
+                color: #569AA9;
+            }
+        }
+    }
+
+    .tab-content {
+        .resort-wrapper {
+            padding: 0;
+
+            .resort-wrapper-innr {
+                display: block;
+
+                .resort-wrapper-left {
+                    width: 100%;
+                    max-width: 100%;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+
+                .resort-wrapper-right {
+                    width: 100%;
+                    padding-left: 16px;
+                    padding-right: 16px;
+                    padding-top: 88px;
+                    max-width: 100%;
+
+                    h5 {
+                        font-size: 20px;
+                        letter-spacing: -0.01em;
+                        color: #4C4C4C;
+                        line-height: 150%;
+                        margin-bottom: 48px;
+                        font-weight: 400;
+                    }
+
+                    p {
+                        letter-spacing: -0.01em;
+                        margin-bottom: 80px;
+                    }
+
+                    .btn {
+                        font-weight: 400;
+                        background: transparent;
+                        padding: 9px 16px;
+                        line-height: 24px;
+                        border: 1px solid #569AA9;
+                        color: #569AA9;
+                    }
+                }
+            }
+        }
+    }
+
+    .hidden {
+        display: none;
+    }
+
+}
+
+.tab-style3 {
+    position: relative;
+    padding-bottom: 95px;
+
+    .tabTitle {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        z-index: 25;
+
+        .tabs-header {
+            margin-bottom: 0;
+            max-width: 600px;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            list-style: none;
+
+            li {
+                padding: 8px 0 0;
+                width: 50%;
+                border: 0;
+                font-size: 22px;
+                letter-spacing: 0.01em;
+                border-top: 1px solid #FFFFFF;
+                line-height: 1;
+                color: #FFFFFF;
+                font-weight: 600;
+                opacity: 0.5;
+                text-align: left;
+                justify-content: flex-start;
+                cursor: pointer;
+
+
+            }
+
+            :last-child {
+                text-align: right;
+                justify-content: flex-end;
+            }
+
+            .activeTab {
+                border-width: 2px 2px 0px 2px;
+                font-weight: 600;
+                opacity: 1;
+            }
+        }
+    }
+
+    .hidden {
+        display: none;
+    }
+}
+
+.login-tab {
+    position: relative;
+
+    .tabs-header {
+        display: flex;
+        margin-bottom: 48px;
+        
+
+        li {
+            width: 100%;
+            padding: 16px 20px;
+            border: 1px solid #CFCFCF;
+            line-height: 31px;
+            color: #666666;
+            font-size: 18px;
+            text-align: center;
+            cursor: pointer;
+            text-transform: uppercase;
+            justify-content: center;
+            list-style: none;
+
+        }
+
+        .activeTab {
+            border-width: 2px 2px 0px 2px;
+            border-color: #2B3D66;
+            color: #2B3D66;
+            font-weight: 600;
+        }
+    }
+
+    .hidden {
+        display: none;
+    }
+}

@@ -1,0 +1,22 @@
+@import './home';
+@import './slider';
+@import './extend';
+@import './variable';
+@import './navbar';
+@import './event';
+@import './tab';
+@import './resort';
+@import './login';
+
+
+*{
+    padding: 0;
+    margin: 0;
+  
+}
+.container {
+    max-width: 1568px;
+    padding: 0 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
