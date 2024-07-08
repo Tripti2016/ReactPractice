@@ -24,9 +24,9 @@ const Resort2 = () =>{
             휴양과 레저문화가 공존하는 모두를 위한 사계절
             문화놀이터입니다.
           </p>
-         
+          <Link to="/contact" className="btn">
             VIEW MORE
-            <span><img src="../assets/icons/long-arrow-gray.svg" alt="" /></span>
+            <span><img src="../assets/icons/long-arrow-gray.svg" alt="" /></span> </Link>
         </div>
       </div>
     </div>
